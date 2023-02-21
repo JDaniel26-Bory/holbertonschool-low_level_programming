@@ -8,15 +8,15 @@
  * Return: Zero value
  */
 
-int main(void) {
+int main(void)
+{
+	char c;
+	int n;
 
-	char a;
-	char b;
-
-	for(a = '0'; a <= '9'; a++)
-		putchar(a);
-	for(b = 'a'; b <= 'f'; b++)
-		putchar(b);
-    	putchar('\n');
-    	return 0;
+	for (n = '0'; n <= '9'; n++)
+		putchar(n);
+	for (c = 'a'; c <= 'f'; c++)
+		putchar(c);
+	putchar('\n');
+	return (0);
 }
