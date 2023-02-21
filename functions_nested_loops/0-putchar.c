@@ -1,21 +1,20 @@
 #include "main.h"
 
 /**
- * main - Entry point.
- * Description: write a program that prints "_putchar" followed by a new line.
- * Return: Always 0 (Success.)
- */
+*main - function prints text as output
+*
+*Return:return 0
+*/
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_ptuchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n')
+	char school[10] = "_putchar";
 
-	return(0);
+	int i;
+
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(school[i]);
+	}
+	_putchar(10);
+	return (0);
 }
