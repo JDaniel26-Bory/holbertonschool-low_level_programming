@@ -15,3 +15,5 @@ TASK 6) There is no such thing as absolute value in this world. You can only est
 TASK 7) There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important, Write a function that prints the last digit of a number.
 
 TASK 8) I'm federal agent Jack Bauer, and today is the longest day of my life, Write a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
+
+TASK 9) Learn your times table, Write a function that prints the 9 times table, starting with 0.
