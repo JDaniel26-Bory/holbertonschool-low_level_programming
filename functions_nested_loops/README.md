@@ -5,3 +5,5 @@ TASK 1) I sometimes suffer from insomnia. And when I can't fall asleep, I play w
 TASK 2) 10 x alphabet, Write a function that prints 10 times the alphabet, in lowercase, followed by a new line.
 
 TASK 3) islower, Write a function that checks for lowercase character.
+
+TASK 4)  isalpha, Write a function that checks for alphabetic character.
