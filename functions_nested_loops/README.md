@@ -7,3 +7,5 @@ TASK 2) 10 x alphabet, Write a function that prints 10 times the alphabet, in lo
 TASK 3) islower, Write a function that checks for lowercase character.
 
 TASK 4)  isalpha, Write a function that checks for alphabetic character.
+
+TASK 5) Sign, Write a function that prints the sign of a number.
