@@ -1,7 +1,10 @@
 #include "main.h"
 
-/*
- * Write a function that checks for uppercase character.
+/**
+ * _isupper - Write a function that checks for uppercase character.
+ *@c - save values adds
+ *
+ * Return: 0;
  */
 
 int _isupper(int c)
@@ -14,5 +17,5 @@ else
 {
 return (0);
 }
-putchar('\n');
+_putchar('\n');
 }
