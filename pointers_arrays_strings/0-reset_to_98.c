@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * reset_to_98: - check the pointer 
+ * reset_to_98 - check the pointer
  * @n: - parameters of funtion
  *
  * Return: 0;
