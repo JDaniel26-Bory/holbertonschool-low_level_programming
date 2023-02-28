@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include <string.h>
+
 
 /**
  * print_rev - Write a function that prints a string
@@ -9,10 +9,14 @@
 
 void print_rev(char *s)
 {
-int i, size;
-size = strlen(s);
-for (i = size - 1; i >= 0; i--)
+int i = 0;
+while (i[s] != '\0')
+{
+i++;
+}
+for (i -= 1; i >= 0; i--)
 {
 putchar(s[i]);
 }
+putchar('\n');
 }
