@@ -5,6 +5,7 @@
  * _strcpy - Write a function that copies the string pointed
  * @dest: Return value: the pointer
  * @src:  function parameters
+ * Return: dest;
  */
 
 char *_strcpy(char *dest, char *src)
