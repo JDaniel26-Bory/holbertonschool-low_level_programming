@@ -17,11 +17,11 @@ while (dest[i] != '\0')
 {
 i++;
 }
-for (j = i; src[j] != 0 ; j++)
+for (j = 0; src[j] != 0 ; j++)
 {
 dest[i] = src[j];
 i++;
 }
 dest[i] = '\0';
-Return: (dest);
+return (dest);
 }
