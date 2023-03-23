@@ -17,13 +17,11 @@ unsigned int i = 0;
 if (n > 0)
 {
 va_start(args, n);
-
 while (i < n)
 {
 printf("%d", va_arg(args, int));
-
 if (i != n - 1 && separator != NULL)
-        printf("%s", separator);
+printf("%s", separator);
 i++;
 }
 va_end(args);
